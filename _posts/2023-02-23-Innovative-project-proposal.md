@@ -39,7 +39,7 @@ This homework is to propose an innovative project and describe the key features,
 3. 電子鼻：氣味感測與辨識 MQ2
 
 ### 系統方塊圖
-![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/Future_Home_greenhouse_keeper.png)
+![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/Future_Home_greenhouse_keeper.png?raw=true)
 
 
 ---
