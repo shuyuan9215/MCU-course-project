@@ -20,6 +20,9 @@ This homework is to propose an innovative project and describe the key features,
   - Draw a System Block Diagram
 
 ---
+## 藍牙遙控機器人
+![](https://github.com/rkuo2023/MCU-project/blob/main/images/ESP32_RoboCar.jpg?raw=true)
+
 ## 家用料理機器人
 
 ### 應用功能說明
