@@ -23,23 +23,24 @@ This homework is to propose an innovative project and describe the key features,
 ## 藍牙遙控機器人
 ![](https://github.com/rkuo2023/MCU-project/blob/main/images/ESP32_RoboCar.jpg?raw=true)
 
-## 家用料理機器人
+## 家用環境照顧機器人
 
 ### 應用功能說明
-1. 操作廚具：咖啡機＋果汁機＋烤麵包機＋微波爐+烤箱+氣炸鍋
-2. 存取冰箱：辨識食物, 存放食材，或取出食材, 送至廚具
+1. 觀察環境:那些地方發出惡臭(EX 寵物大小便、衣物沒洗、垃圾沒丟)
+2. 發現蟑螂老鼠等害蟲清除
+3. 家中植物照顧(EX 澆花，照明，生長辨識)
+4. 陪寵物玩
 
 ### 設計考量與相關技術
 **系統設計考量：**<br>
-1. 操作方式:垂直升降式手臂 or 懸吊式手臂
-2. 移動方式:兩輪 or 滑軌懸吊
+1. 操作方式:飛行機器人
+2. 移動方式:螺旋翼
 3. 供電方式:鋰電池
 4. 聯網方式:WiFi或BT to 手機
 
 **所需相關技術：**
-1. 滑軌式機器手臂 ＆ 軟式夾具
-2. 食物辨識分類：Jetson-Nano + IMX219
-3. 電子鼻：氣味感測與辨識 MQ2
+1. 滑軌式機器手臂 ＆共軸雙旋翼
+2. 電子鼻：氣味感測與辨識 MQ2
 
 ### 系統方塊圖
 ![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/Future_Home_greenhouse_keeper.png?raw=true)
