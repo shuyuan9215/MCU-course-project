@@ -31,6 +31,9 @@ This project is to implement a bluetooth remote controlled robotcar.
 **所需相關套件:**
 ![](https://image.ruten.com.tw/g2/8/d4/16/21440347657238_872.jpg)
 
+**系統方塊圖:**
+![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/image.png)
+
 ### 手機藍牙遙控, 或WebUI 遙控(利用手機熱點WiFi連線)
 <iframe width="320" height="560" src="https://www.youtube.com/embed/f2BniY4nAnU" title="手機藍牙遙控, 或WebUI 遙控(利用手機熱點WiFi連線)1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
