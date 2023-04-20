@@ -75,6 +75,19 @@ const String HTTP_PAGE_FORM = "<form action=\"/cmd1\" method=\"get\"><button cla
 const String HTTP_WEBPAGE = HTTP_PAGE_HEAD + HTTP_PAGE_STYLE + HTTP_PAGE_SCRIPT + HTTP_PAGE_BODY + HTTP_PAGE_FORM;
 const String HTTP_PAGE_END = "</div></body></html>";
 
+**這是一段ESP32控制機器人小車的程式碼，它還有一個Web伺服器以接收控制命令。
+程式碼的第一個部分包含了需要引用的庫。以下是每個庫的作用：
+•	WiFi.h - 允許ESP32使用WiFi網路連線。
+•	WebServer.h - 用於建立ESP32的Web伺服器，可以用來接收和回應HTTP請求。
+•	ESP32MotorControl.h - 用於控制馬達的庫。
+程式碼的下一個部分是將腳位與常量關聯起來，並初始化ESP32MotorControl物件以控制兩個馬達的方向和速度。
+程式碼的下一部分包含WiFi的SSID和密碼。這些是用於連接ESP32到WiFi網路的憑據。
+接下來是Web伺服器的初始化，它使用80作為埠號。
+HTTP_PAGE_HEAD，HTTP_PAGE_STYLE，HTTP_PAGE_SCRIPT，HTTP_PAGE_BODY，HTTP_PAGE_FORM和HTTP_PAGE_END是網頁HTML的各種部分，最後合併起來形成完整的網頁，以用於Web伺服器回應HTTP請求。
+程式碼的主要功能是建立Web伺服器和回應HTTP請求。在Web伺服器上設置了5個按鈕，分別代表向前、向後、向右、向左和停止馬達。當使用者按下其中一個按鈕時，Web伺服器會發送HTTP GET請求到ESP32上，然後ESP32會根據所接收到的命令來控制馬達的運動。
+總體來說，這個程式碼實現了一個基本的ESP32控制機器人小車的系統，並提供了一個簡單的Web界面來控制它。**
+
+
 // Current time
 unsigned long currentTime = millis();
 // Previous time
@@ -135,6 +148,9 @@ void cmd5() {
   Serial.println("Motor Stop");
 }
 
+**這段程式碼定義了幾個函數，用於處理來自網頁伺服器的不同HTTP請求。 handleRoot（） 函數會產生一個HTML網頁並將其作為回應發送。其他幾個函數（cmd1，cmd2，cmd3，cmd4和cmd5）分別處理前進、後退、右轉、左轉和停止的命令。在這些函數中，它們會向馬達驅動器發送特定的指令，以控制機器人移動方向和速度，並通過串口打印調試信息。**
+
+
 void setup() {
   Serial.begin(115200);
   Serial.println("Motor Pins assigned...");
@@ -171,6 +187,9 @@ void setup() {
 void loop() {
   server.handleClient();
 }
+
+
+**這個程式碼的功能是使用ESP8266控制兩個直流馬達，並透過網頁介面控制其移動方向和停止。程式碼使用了ESP8266庫和WiFi庫來設置Wi-Fi網絡，建立HTTP伺服器和處理客戶端請求。在setup()函數中，首先進行了串口和馬達的初始化，然後進行Wi-Fi網絡的連接。連接成功後，設置HTTP伺服器的路由，並啟動HTTP伺服器。最後，馬達被停止。在loop()函數中，持續地處理客戶端請求。**
 
 <br>
 <br>
