@@ -14,7 +14,7 @@ tags: [jekyll, ai]
 
 ---
 ###方塊圖
-![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/image.png?raw=true)
+![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/iot.png?raw=true)
 
 
 ### 程式碼 ESP32_Webserver_Ngrok.ino
