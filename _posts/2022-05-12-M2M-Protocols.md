@@ -10,7 +10,7 @@ IoT Thinkspeak.
 
 ---
 ## 實作圖
-![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/image.png?raw=true)
+![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/THINK.jpg?raw=true)
 
 ### code
 #include <WiFi.h>
