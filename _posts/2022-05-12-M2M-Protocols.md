@@ -11,6 +11,8 @@ IoT Thinkspeak.
 ---
 ## 實作圖
 ![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/THINK.jpg?raw=true)
+![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/specl523.png?raw=true)
+
 
 ## 方塊圖
 ![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/think2.png?raw=true)
