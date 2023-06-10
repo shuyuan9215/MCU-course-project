@@ -10,7 +10,7 @@ tags: [jekyll]
 
 
 ### 系統方塊圖
-![](https://github.com/hjgyjg123/MCU-project/blob/main/images/ESP32_PID%E7%B3%BB%E7%B5%B1%E6%96%B9%E5%A1%8A%E5%9C%96.jpg?raw=true)
+![](https://github.com/shuyuan9215/MCU-course-project/blob/main/images/pid%E6%96%B9%E5%A1%8A%E5%9C%96.png?raw=true)
 
 ### ESP32_Robocar_PID程式碼
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/ESP32_PID%E7%A8%8B%E5%BC%8F%E7%A2%BC1.jpg?raw=true)
